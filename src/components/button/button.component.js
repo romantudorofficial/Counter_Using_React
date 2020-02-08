@@ -7,11 +7,11 @@ class Button extends Component
 {
     render ()
     {
-        return(
+        return (
             <button onClick = {this.props.action}>
-                {
-                    this.props.sign
-                }
+            {
+                this.props.sign
+            }
             </button>
         );
     }
